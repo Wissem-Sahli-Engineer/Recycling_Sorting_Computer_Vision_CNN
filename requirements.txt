@@ -2,3 +2,5 @@ ultralytics
 numpy
 opencv-python
 split-folders
+matplotlib
+pandas
