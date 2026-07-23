@@ -5,15 +5,15 @@ data: dataset
 epochs: 25
 time: null
 patience: 100
-batch: 16
+batch: 64
 imgsz: 256
 save: true
 save_period: -1
-cache: false
-device: ''
+cache: true
+device: mps
 workers: 8
 project: null
-name: train-3
+name: train-2
 exist_ok: false
 pretrained: true
 cls_remap: true
@@ -112,4 +112,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: tracktrack.yaml
-save_dir: /Users/wess/Desktop/computer vision/Recycling_Sorting_CV♻️  /runs/classify/train-3
+save_dir: /Users/wess/Desktop/computer vision/Recycling_Sorting_CV♻️  /runs/classify/train-2

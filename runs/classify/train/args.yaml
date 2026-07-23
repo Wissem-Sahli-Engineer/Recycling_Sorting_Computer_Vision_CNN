@@ -2,18 +2,18 @@ task: classify
 mode: train
 model: yolo26n-cls.pt
 data: dataset
-epochs: 15
+epochs: 25
 time: null
 patience: 100
-batch: 64
+batch: 16
 imgsz: 256
 save: true
 save_period: -1
-cache: true
-device: mps
+cache: false
+device: ''
 workers: 8
 project: null
-name: train
+name: train-3
 exist_ok: false
 pretrained: true
 cls_remap: true
@@ -112,4 +112,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: tracktrack.yaml
-save_dir: /Users/wess/Desktop/computer vision/Recycling_Sorting_CV♻️  /runs/classify/train
+save_dir: /Users/wess/Desktop/computer vision/Recycling_Sorting_CV♻️  /runs/classify/train-3
