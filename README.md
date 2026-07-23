@@ -1,0 +1,1 @@
+( on mac maybe you can use pip install --upgrade --force-reinstall pillow if something wrong happens for pillow and wait for some time it is okay )
