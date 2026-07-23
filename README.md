@@ -1,6 +1,6 @@
 # 🚀 Recycling & Waste Sorting Computer Vision (YOLO Classification)
 
-Welcome to the **Recycling & Waste Sorting Computer Vision** repository! This project leverages state-of-the-art Deep Learning with **YOLOv8 classification networks** to dynamically identify, classify, and sort recyclable waste materials (such as glass, paper, cardboard, plastic, metal, and trash) in real time.
+Welcome to the **Recycling & Waste Sorting Computer Vision** repository! This project leverages state-of-the-art Deep Learning with **YOLO26n classification networks** to dynamically identify, classify, and sort recyclable waste materials (such as glass, paper, cardboard, plastic, metal, and trash) in real time.
 
 ---
 
