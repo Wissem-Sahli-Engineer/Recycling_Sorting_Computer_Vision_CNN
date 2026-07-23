@@ -7,4 +7,4 @@ model = YOLO("yolo26n-cls.pt")
 
 
 
-results = model.train(data="mnist160", epochs=1, imgsz=64)
+results = model.train(data="dataset", epochs=1, imgsz=64)
